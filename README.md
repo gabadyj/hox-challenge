@@ -46,7 +46,7 @@ yarn typeorm migration:run
 
 #### Running the server
 
-The command below will start the server on the port specified in the environment variables
+The command below will start the server on port 3333
 
 ```shell
 yarn dev:server
