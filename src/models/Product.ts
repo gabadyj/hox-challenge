@@ -17,7 +17,7 @@ class Product {
   @Column({ type: 'varchar' })
   expirationDate?: Date | null;
 
-  @Column('decimal', { precision: 3, scale: 2 })
+  @Column()
   price: number;
 }
 
