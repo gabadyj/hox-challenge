@@ -25,7 +25,7 @@ The yarn command will install all project dependencies
 
 #### Connecting to the database
 
-Create a PostgreSQL database, the specs like name, port, database name and password are in the docker-compose.yaml file
+Create a PostgreSQL database, the specs like name, port, database name and password are in the ormconfig.json file
 Then run the command below
 
 ```shell
