@@ -13,6 +13,8 @@ git clone https://github.com/gabadyj/hox-challenge.git
 
 #### Install the dependencies
 
+Run the command below in your terminal
+
 ```shell
 yarn
 ```
