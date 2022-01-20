@@ -1,0 +1,21 @@
+# v2.1 syntax
+version: '2.1'
+
+# Named volumes
+volumes:
+  # Postgres Data
+  hox-api-challenge-data:
+    driver: local
+
+services:
+  postgres:
+    image: postgres
+    container_name: hox-api-challenge
+    volumes:
+      - hox-api-challenge-data:/var/lib/postgresql/data
+    ports:
+      - '5433:5432'
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_DB=postgres_db
