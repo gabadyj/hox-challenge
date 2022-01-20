@@ -6,7 +6,7 @@
 To get started, you must clone the project from GitHub, choose a directory and run the following command
 
 ```shell
-git clone https://github.com/gabadyj/hox-test
+git clone https://github.com/gabadyj/hox-challenge.git
 ```
 
 <br />
