@@ -13,6 +13,8 @@ git clone https://github.com/gabadyj/hox-challenge.git
 
 #### Install the dependencies
 
+Run the command below in your terminal
+
 ```shell
 yarn
 ```
@@ -23,7 +25,7 @@ The yarn command will install all project dependencies
 
 #### Connecting to the database
 
-Create a PostgreSQL database, the specs like name, port, database name and password are in the docker-compose.yaml file
+Create a PostgreSQL database, the specs like name, port, database name and password are in the ormconfig.json file.
 Then run the command below
 
 ```shell
@@ -46,7 +48,7 @@ yarn typeorm migration:run
 
 #### Running the server
 
-The command below will start the server on the port specified in the environment variables
+The command below will start the server on port 3333
 
 ```shell
 yarn dev:server
